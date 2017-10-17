@@ -3,7 +3,7 @@ const client = new Discord.Client
 const fs = require('fs')
 client.commands = new Discord.Collection()
 
-module.exports.run = async run (client, message, args) => {
+module.exports.run = async (client, message, args) => {
 	let modRole = message.guild.roles.find("name", "Owner");
 	if(message.member.roles.has(modRole.id)) {
 		let banMember = message.guild.member(message.mentions.users.first());
