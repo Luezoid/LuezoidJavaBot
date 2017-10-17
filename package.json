@@ -12,7 +12,7 @@
   "author": "Luezoid",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^8.6.0",
+    "@types/node": "^8.0.34",
     "artzlogger": "0.0.4",
     "discord-classes": "^1.0.0",
     "discord.js": "^11.2.1",
