@@ -53,4 +53,4 @@ if (!message.content.startsWith(prefix)) return;
 
 //This is the token.
 
-client.login(MzY5NzI0MTgwNzUwNDAxNTM3.DMe8pA.l2neyiHCBJq48n24xEf0AY4-uIc);
+client.login("MzY5NzI0MTgwNzUwNDAxNTM3.DMe8pA.l2neyiHCBJq48n24xEf0AY4-uIc");
