@@ -3,13 +3,16 @@
   "version": "0.0.0",
   "description": "My Bot",
   "main": "app.js",
+  "engines": {
+    "node": "8.6.0"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luezoid",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^8.0.34",
+    "@types/node": "^8.6.0",
     "artzlogger": "0.0.4",
     "discord-classes": "^1.0.0",
     "discord.js": "^11.2.1",
