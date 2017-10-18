@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "My Bot",
   "main": "app.js",
-  "engine": {
+  "engines": {
     "node": "8.6.0"
   },
   "scripts": {
