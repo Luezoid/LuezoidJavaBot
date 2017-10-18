@@ -21,7 +21,6 @@ module.exports.run = async (client, message, args) => {
 			await msg.channel.send(`**I found:**\n${links.join('\n')}`);
 	});
 };
-}
 
 module.exports.help = {
     name: "google"
