@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
     .setColor(0x00AE86)
     .setDescription(' **∴Commands∴**')
     .addField('« Use `-help` to show this message! »', '`-help`')
-    .addField('« Use `-rules` to show the rules! »', `-rules`')
+    .addField('« Use `-rules` to show the rules! »', '`-rules`')
     .addField('« Use `-program` to show what program I was made in! »', '`-program`')
     .addField('« Use `-ping` to show your ping! »', '`-ping`')
     .addField('« Use `-testdm` to send you a DM! »', '`-testdm`')
