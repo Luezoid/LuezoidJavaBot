@@ -13,6 +13,12 @@ module.exports.run = async (client, message, args) => {
     .addField('« Use `-program` to show what program I was made in! »', '`-program`')
     .addField('« Use `-ping` to show your ping! »', '`-ping`')
     .addField('« Use `-testdm` to send you a DM! »', '`-testdm`')
+    .addField('« Use `-botinfo` to see my information! »', '`-botinfo`')
+    .addField('« Use `-purge` to clear messages! »', '`-purge (num)` ***[MODS]***')
+    .addField('« Use `warn` to warn people! »', '`-warn (@someone)` ***[MODS]***')
+    .addField('« Use `-kick/ ban` to kick or ban someone! »', '`-kick/ ban (@someone)` ***[MODS]***')
+    .addField('« Use `-getalt` to get an alt! »', '`-getalt (num)` ***[LIMITED]***')
+    .addField("« Use `-userinfo` to check someone's information! »", '`-userinfo (@someone)`')
     message.channel.send({embed});
 }
 
